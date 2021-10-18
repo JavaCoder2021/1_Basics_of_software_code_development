@@ -8,10 +8,10 @@ public class Task_5 {
     
     public static void main(String[] args) {
         
-        int time = 3700;
-        int sec = time % 60;
-        int min = (time / 60) % 60;
-        int hours = (time / 60) / 60;
+        int Т = 4100;
+        int sec = Т % 60;
+        int min = (Т / 60) % 60;
+        int hours = (Т / 60) / 60;
 
         System.out.printf("%d ч %d мин %d с \n", hours, min, sec);
        
