@@ -10,7 +10,6 @@ public class Task_2 {
         
     }
 
-    //Основной класс
     public static void main(String[] args) {
         
         double z = func(1, 2, 3);
