@@ -10,7 +10,6 @@ public class Task_1 {
         
     }
 
-    //Основной класс
     public static void main(String[] args) {
         
         int z = func(5, 10, 20);
