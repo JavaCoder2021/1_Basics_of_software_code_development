@@ -5,7 +5,7 @@ package task_1;
 public class Task_1 {
     
     //function
-    public static double func(int a, int b, int c) {  
+    public static double func(double a, double b, double c) {  
         
         double pZ = (( a - 3 ) * b / 2 ) + c; 
         return pZ;  
