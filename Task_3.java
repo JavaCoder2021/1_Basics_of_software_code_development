@@ -2,7 +2,10 @@ package task_3;
 
 public class Task_3 {
     
-    //Функция
+    /** 
+     * @param x - Значение в градусах
+     * @param y - Значение в градусах
+     */
     public static double func(double x, double y) {
         
         double radiansX = Math.toRadians(x);
