@@ -1,3 +1,5 @@
+//1. Найдите  значение функции: z = ( (a – 3 ) * b / 2) + c. 
+
 package task_1;
 
 public class Task_1 {
@@ -5,7 +7,7 @@ public class Task_1 {
     //function
     public static double func(int a, int b, int c) {  
         
-        double pZ = (( a - 3 ) * b/2 ) + c; 
+        double pZ = (( a - 3 ) * b / 2 ) + c; 
         return pZ;  
         
     }
