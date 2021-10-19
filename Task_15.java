@@ -9,8 +9,10 @@ public class Task_15 {
        
         double pZ;
         
-        if ( x <=3 ) pZ = Math.pow(x, 2) - 3 * x + 9;
-        else pZ = 1 / ( Math.pow(x, 3) +6 );
+        if ( x <=3 ) 
+            pZ = Math.pow(x, 2) - 3 * x + 9;
+        else 
+            pZ = 1 / ( Math.pow(x, 3) + 6 );
         
         return pZ;
        
