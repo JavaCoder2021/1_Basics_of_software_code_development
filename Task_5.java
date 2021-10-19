@@ -8,12 +8,12 @@ public class Task_5 {
     
     public static void main(String[] args) {
         
-        int Т = 4100;
+        int Т = 4085;
         int sec = Т % 60;
         int min = (Т / 60) % 60;
         int hours = (Т / 60) / 60;
 
-        System.out.printf("%d ч %d мин %d с \n", hours, min, sec);
+        System.out.printf("%02dч %02dмин %02dс \n", hours, min, sec);
        
     }
     
