@@ -11,9 +11,9 @@ public class Task_28 {
         
         //Вводим 2 числа
         Scanner input = new Scanner(System.in);
-        System.out.print("Введите число m: ");
+        System.out.print("Enter the number m: ");
         int m = Math.abs(input.nextInt());
-        System.out.print("Введите число n: ");
+        System.out.print("Enter the number n: ");
         int n = Math.abs(input.nextInt());
         
         //Преобразуем их в строку
