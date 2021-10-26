@@ -10,7 +10,7 @@ public class Task_21 {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
-        System.out.print("Введите целое число > 1: ");
+        System.out.print("Please enter an integer > 1: ");
         int a = input.nextInt();
         a = Math.abs(a);
         int summa = 0;
@@ -20,7 +20,7 @@ public class Task_21 {
             summa += i;
         }  
         
-        System.out.println("Сумма чисел равна: " + summa);
+        System.out.println("The sum of the numbers is: " + summa);
     }
     
 }
