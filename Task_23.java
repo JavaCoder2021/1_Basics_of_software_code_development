@@ -13,7 +13,7 @@ public class Task_23 {
             summa += i * i;
         }
         
-        System.out.println("Сумма квадратов первых ста чисел: " + summa);
+        System.out.println("Sum of the squares of the first hundred numbers: " + summa);
 
     }
     
