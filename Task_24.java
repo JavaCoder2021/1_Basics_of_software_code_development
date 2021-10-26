@@ -15,7 +15,7 @@ public class Task_24 {
             proizv = proizv.multiply(BigInteger.valueOf((long) i * i));
         }
         
-        System.out.println("Произведение квадратов первых двухсот чисел: " + proizv);
+        System.out.println("Product of the squares of the first two hundred numbers: " + proizv);
 
     }
     
