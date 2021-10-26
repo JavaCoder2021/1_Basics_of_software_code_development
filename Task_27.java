@@ -10,9 +10,9 @@ public class Task_27 {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
-        System.out.print("Введите число m: ");
+        System.out.print("Enter the number m: ");
         int m = input.nextInt();
-        System.out.print("Введите число n: ");
+        System.out.print("Enter the number n: ");
         int n = input.nextInt();
         
         if (m > n) 
@@ -21,7 +21,7 @@ public class Task_27 {
         for (int i = m; i <= n; i++)
         {
             
-            System.out.print("Deliteli chisla " + i + " : ");
+            System.out.print("Divisors of a number " + i + " : ");
             
             for (int a = 2; a < i; a++)
             {
