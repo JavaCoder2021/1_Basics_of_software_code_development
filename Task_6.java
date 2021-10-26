@@ -9,7 +9,7 @@ public class Task_6 {
         
         if (x<-6 || x>8 || y<-4 || y>7 || x==0 || y==0)
         {
-            System.out.println("Неправильно задана область x и y");
+            System.out.println("Area x and y are set incorrectly");
         }
         else
         {
