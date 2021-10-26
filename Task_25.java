@@ -22,7 +22,7 @@ public class Task_25 {
         
         //
         
-        System.out.println("Сумма членов ряда: " + func(1, 10, 2, 0.1));
+        System.out.println("The sum of the members of the series: " + func(1, 10, 2, 0.1));
 
     }
     
