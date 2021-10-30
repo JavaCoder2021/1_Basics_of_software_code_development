@@ -1,1 +1,2 @@
-Решение заданий для epam
+Solving the task for Epam
+Module 1
