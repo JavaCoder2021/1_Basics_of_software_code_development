@@ -7,8 +7,8 @@ public class Task4 {
     
     public static void main(String[] args) {
         
-        double z = func(125.111);
-        System.out.printf("z = %.3f \n", z);
+        double R = func(125.111);
+        System.out.printf("R = %.3f \n", R);
        
     }
     
