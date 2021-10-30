@@ -11,11 +11,11 @@ public class Task1 {
         
         Scanner input = new Scanner(System.in);
         
-        System.out.print("Please enter an integer > 1: ");
+        System.out.print("Please enter an integer > 0: ");
         int a = input.nextInt();
         while (a <= 0)
         {
-            System.out.print("Please enter an integer > 1: ");
+            System.out.print("Please enter an integer > 0: ");
             a = input.nextInt();
         }
         
