@@ -15,7 +15,7 @@ public class Task6 {
     
     public static void trueOrFalse(int x, int y) {
         
-        if (x<-6 || x>8 || y<-4 || y>7 || x==0 || y==0)
+        if (x<-6 || x>8 || y<-4 || y>7)
         {
             System.out.println("Area x and y are set incorrectly");
         }
