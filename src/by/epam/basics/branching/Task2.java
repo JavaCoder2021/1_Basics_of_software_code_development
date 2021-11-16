@@ -19,9 +19,20 @@ public class Task2 {
         double minCD;
         double max_is_min_abcd;
         
-        if (a <= b) minAB = a; else minAB = b;
-        if (c <= d) minCD = c; else minCD = d;
-        if (minAB >= minCD) max_is_min_abcd = minAB; else max_is_min_abcd = minCD;
+        if (a <= b) 
+            minAB = a; 
+        else 
+            minAB = b;
+        
+        if (c <= d) 
+            minCD = c; 
+        else 
+            minCD = d;
+        
+        if (minAB >= minCD) 
+            max_is_min_abcd = minAB; 
+        else 
+            max_is_min_abcd = minCD;
         
         return max_is_min_abcd;
         
