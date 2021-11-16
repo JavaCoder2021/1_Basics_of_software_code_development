@@ -9,15 +9,15 @@ public class Task2 {
     
     public static void main(String[] args) {
         
-        System.out.printf("max_is_min_abcd = %.1f \n", max_is_min(4, 5, 5, 6));
+        System.out.printf("max_is_min_abcd = %.1f \n", maxIsMin(4, 5, 5, 6));
             
     }
     
-    public static double max_is_min(double a, double b, double c, double d) {
+    public static double maxIsMin(double a, double b, double c, double d) {
         
         double minAB;
         double minCD;
-        double max_is_min_abcd;
+        double maxIsMinABCD;
         
         if (a <= b) 
             minAB = a; 
@@ -30,11 +30,11 @@ public class Task2 {
             minCD = d;
         
         if (minAB >= minCD) 
-            max_is_min_abcd = minAB; 
+            maxIsMinABCD = minAB; 
         else 
-            max_is_min_abcd = minCD;
+            maxIsMinABCD = minCD;
         
-        return max_is_min_abcd;
+        return maxIsMinABCD;
         
     }    
     
