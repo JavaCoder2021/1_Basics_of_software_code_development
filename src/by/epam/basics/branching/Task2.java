@@ -1,7 +1,7 @@
 /*
-Ветвления. 2. 
-Найти max{min(a, b), min(c, d)}.  
-*/
+ * Ветвления. 2. 
+ * Найти max{min(a, b), min(c, d)}.  
+ */
 
 package by.epam.basics.branching;
 
@@ -36,6 +36,6 @@ public class Task2 {
         
         return maxIsMinABCD;
         
-    }    
+    }
     
 }
