@@ -22,7 +22,7 @@ public class Task1 {
         System.out.println("The sum of the numbers is: " + summa);
     }
     
-    private static int scannerInt(){
+    private static int scannerInt() {
         
         Scanner input = new Scanner(System.in);
         int num = -1;
