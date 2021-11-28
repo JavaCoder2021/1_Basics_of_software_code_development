@@ -12,8 +12,8 @@ public class Task4 {
     
     public static void main(String[] args) {
         
-        double R = func(125.111);
-        System.out.printf("R = %.3f \n", R);
+        double R = 125.111;
+        System.out.printf("R = %.3f \n", func(R));
        
     }
     
