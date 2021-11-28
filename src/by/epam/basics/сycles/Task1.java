@@ -25,8 +25,8 @@ public class Task1 {
     private static int scannerInt(){
         
         Scanner input = new Scanner(System.in);
-        
         int num = -1;
+        
         do {
             System.out.print("Please enter an integer > 0: ");
             if (input.hasNextInt()) {
