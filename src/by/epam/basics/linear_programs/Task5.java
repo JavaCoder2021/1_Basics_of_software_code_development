@@ -11,7 +11,7 @@ public class Task5 {
     
     public static void main(String[] args) {
         
-        int Т = 4085;
+        int Т = 4106;
         int sec = Т % 60;
         int min = (Т / 60) % 60;
         int hours = (Т / 60) / 60;
