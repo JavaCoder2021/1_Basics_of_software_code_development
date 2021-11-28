@@ -1,6 +1,6 @@
 /*
-3. Вычислить значение выражения по формуле (все переменные принимают действительные значения): 
-*/
+ * 3. Вычислить значение выражения по формуле (все переменные принимают действительные значения): 
+ */
 
 package by.epam.basics.linear_programs;
 
@@ -24,10 +24,10 @@ public class Task3 {
         double radiansX  = toRadians(x);
         double radiansY  = toRadians(y);
         double radiansXY = toRadians(x * y);
-        double cosX = cos(radiansX);
-        double cosY = cos(radiansY);
-        double sinX = sin(radiansX);
-        double sinY = sin(radiansY);
+        double cosX  = cos(radiansX);
+        double cosY  = cos(radiansY);
+        double sinX  = sin(radiansX);
+        double sinY  = sin(radiansY);
         double tanXY = tan(radiansXY);
         double z = ((sinX + cosY) / (cosX - sinY)) * tanXY;
         
