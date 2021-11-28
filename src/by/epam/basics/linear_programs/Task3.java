@@ -24,11 +24,13 @@ public class Task3 {
         double radiansX  = toRadians(x);
         double radiansY  = toRadians(y);
         double radiansXY = toRadians(x * y);
+        
         double cosX  = cos(radiansX);
         double cosY  = cos(radiansY);
         double sinX  = sin(radiansX);
         double sinY  = sin(radiansY);
         double tanXY = tan(radiansXY);
+        
         double z = ((sinX + cosY) / (cosX - sinY)) * tanXY;
         
         return z;
