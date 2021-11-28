@@ -1,4 +1,5 @@
-Solving the task for Epam
+1_Basics_of_software_code_development
+
 Module 1
  
 Для закрепления навыков по данной теме решите следующие задачи.  
