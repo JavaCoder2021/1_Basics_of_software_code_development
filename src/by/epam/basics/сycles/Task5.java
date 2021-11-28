@@ -23,12 +23,15 @@ public class Task5 {
         
         double summ = 0;
         double summObj = 0;
-        for (int i = start; i <= finish; i++)
-        {
-            summObj = 1 / ( Math.pow(i, n) );
+        
+        for (int i = start; i <= finish; i++) {
+            
+            summObj = 1 / (Math.pow(i, n));
             if (Math.abs(summObj) >= e) 
                 summ += summObj;
+            
         } 
+        
         return summ;
             
     }
