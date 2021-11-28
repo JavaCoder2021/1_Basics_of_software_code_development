@@ -11,11 +11,18 @@ public class Task2 {
         double a = -5;
         double b = 10;
         double h = 3;
+        
+        func(a, b, h);
+
+    }
+    
+    public static void func(double a, double b, double h) { 
+        
         double y;
         
-        for ( double x = a; x <= b; x += h)
+        for (double x = a; x <= b; x += h)
         {
-            if ( x > 2 ) 
+            if (x > 2) 
                 y = x;
             else 
                 y = -x;
@@ -23,7 +30,7 @@ public class Task2 {
         }
         
         System.out.println();
-
-    }
+        
+    }    
     
 }
