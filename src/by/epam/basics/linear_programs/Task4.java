@@ -19,8 +19,7 @@ public class Task4 {
     
     public static double func(double x) {
         
-        double z = (x * 1000) % 1000 + (int) x / 1000.0;
-        return z;
+        return (x * 1000) % 1000 + (int) x / 1000.0;
        
     }
     
