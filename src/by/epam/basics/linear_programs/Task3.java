@@ -30,10 +30,8 @@ public class Task3 {
         double sinX  = sin(radiansX);
         double sinY  = sin(radiansY);
         double tanXY = tan(radiansXY);
-        
-        double z = ((sinX + cosY) / (cosX - sinY)) * tanXY;
-        
-        return z;
+               
+        return ((sinX + cosY) / (cosX - sinY)) * tanXY;
        
     }
     
