@@ -20,8 +20,7 @@ public class Task2 {
         
         double y;
         
-        for (double x = a; x <= b; x += h)
-        {
+        for (double x = a; x <= b; x += h) {
             if (x > 2) 
                 y = x;
             else 
