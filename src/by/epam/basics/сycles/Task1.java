@@ -14,7 +14,7 @@ public class Task1 {
         int num = scannerInt(); 
         int sum = 0;
         
-        for (int i = 1; i <= num; i++)
+        for (int i = 1; i <= num; i++)         
             sum += i;
         
         System.out.println("The sum of the numbers is: " + sum);
