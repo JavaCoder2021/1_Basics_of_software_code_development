@@ -15,11 +15,10 @@ public class Task1 {
         int summa = 0;
         
         for (int i = 1; i <= num; i++)
-        {
             summa += i;
-        }  
         
         System.out.println("The sum of the numbers is: " + summa);
+        
     }
     
     private static int scannerInt() {
